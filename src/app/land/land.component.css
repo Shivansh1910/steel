@@ -1,0 +1,32 @@
+.bg-landing {
+  background-image: url("/assets/img/stock/pexels-johannes-plenio-4460676.jpg");
+  background-position: bottom;
+  background-size: cover;  
+  /* opacity: 0.8; */
+}
+
+ngx-parallax-scroll ::ng-deep .responsive-container {
+  height: 300px;
+}
+
+@media (min-width: 768px) {
+  ngx-parallax-scroll ::ng-deep .responsive-container {
+    height: 600px;
+  }
+}
+
+ngx-parallax-scroll ::ng-deep .multiple-container {
+  height: 900px;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parallax-container{
+  height: 100vh;
+  position: relative;
+}
